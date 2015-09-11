@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Trac - First Choice</string>
-    <string name="click_here"><a href="http://ec2-54-208-4-24.compute-1.amazonaws.com/Project/report">Click here to go \nto trac website</a></string>
+    <string name="click_here"><a href="http://ec2-54-208-4-24.compute-1.amazonaws.com/Project/report">View Tickets</a></string>
+    <string name="click_here_ticket"><a href="http://ec2-54-208-4-24.compute-1.amazonaws.com/Project/newticket">Create a new ticket</a></string>
     <string name="action_settings">Settings</string>
 </resources>

@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TextView t1 = (TextView) findViewById(R.id.clickHereTicket);
+        t1.setMovementMethod(LinkMovementMethod.getInstance());
         TextView t2 = (TextView) findViewById(R.id.clickHere);
         t2.setMovementMethod(LinkMovementMethod.getInstance());
     }
